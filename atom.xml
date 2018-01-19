@@ -4,24 +4,37 @@
   <title><![CDATA[kinpowoo]]></title>
   <link href="https://kinpowoo.github.io/atom.xml" rel="self"/>
   <link href="https://kinpowoo.github.io/"/>
-  <updated>2018-01-18T23:40:57+08:00</updated>
+  <updated>2018-01-19T13:05:03+08:00</updated>
   <id>https://kinpowoo.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
     
   </author>
-  <generator uri="http://www.coderforart.com/">CoderForArt</generator>
+  <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[这只是一个测试]]></title>
+    <link href="https://kinpowoo.github.io/test.html"/>
+    <updated>2018-01-18T23:39:41+08:00</updated>
+    <id>https://kinpowoo.github.io/test.html</id>
+    <content type="html"><![CDATA[
 
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ListView嵌套EditText数据混乱和焦点问题完美解决]]></title>
-    <link href="https://kinpowoo.github.io/15162526124126.html"/>
+    <link href="https://kinpowoo.github.io/listview%E4%B8%8Eedittext%E7%84%A6%E7%82%B9%E5%86%B2%E7%AA%81%E8%A7%A3%E5%86%B3.html"/>
     <updated>2018-01-18T13:16:52+08:00</updated>
-    <id>https://kinpowoo.github.io/15162526124126.html</id>
+    <id>https://kinpowoo.github.io/listview%E4%B8%8Eedittext%E7%84%A6%E7%82%B9%E5%86%B2%E7%AA%81%E8%A7%A3%E5%86%B3.html</id>
     <content type="html"><![CDATA[
 <blockquote>
 <p>我们在工作中时常有这种需要，一个listview的子item里有多个edittext，edittext之间会抢点，而且listview holder的复用会导致edittext内容的显示混乱，下面，让我们来 fix it!</p>
 </blockquote>
+
+<span id="more"></span><!-- more -->
+
+<!-- PAGE_URL -->
 
 <h3 id="toc_0">首先让我们自定义一个EditText来管理它被添加的TextWatcher</h3>
 
