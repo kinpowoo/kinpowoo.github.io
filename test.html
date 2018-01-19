@@ -158,6 +158,11 @@
           <div id="disqus_thread"></div>
 <script>
 
+var disqus_config = function () {
+this.page.url = window.location.host; 
+this.page.identifier = Math.random()*10000; 
+};
+
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
 s.src = 'https://kinpowang.disqus.com/embed.js';
